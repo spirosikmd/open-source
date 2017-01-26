@@ -1,0 +1,49 @@
+{
+  "name": "open-source",
+  "version": "0.0.0-development",
+  "description": "Template for open source projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Spyros Ioakeimidis <spyrosikmd@gmail.com> (http://www.spyros.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirosikmd/open-source.git"
+  },
+  "keywords": [
+    "open source",
+    "node",
+    "javascript",
+    "jest",
+    "semantic-release",
+    "wallaby"
+  ],
+  "bugs": {
+    "url": "https://github.com/spirosikmd/open-source/issues"
+  },
+  "homepage": "https://github.com/spirosikmd/open-source#readme",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "all-contributors-cli": "^3.1.0",
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^1.2.0",
+    "eslint": "^3.14.1",
+    "jest": "^18.1.0",
+    "semantic-release": "^6.3.2"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
