@@ -2,6 +2,17 @@
 
 [![Build Status][build-badge]][build]
 
+Open source node project template based on
+
+- yarn
+- jest
+- wallaby
+- semantic-release
+- all-contributors
+- eslint
+- editorconfig
+- travis
+
 [build-badge]: https://img.shields.io/travis/spirosikmd/open-source.svg?style=flat-square
 [build]: https://travis-ci.org/spirosikmd/open-source.svg
 
