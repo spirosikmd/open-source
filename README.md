@@ -1,5 +1,10 @@
 # open source
 
+[![Build Status][build-badge]][build]
+
+[build-badge]: https://img.shields.io/travis/spirosikmd/open-source.svg?style=flat-square
+[build]: https://travis-ci.org/spirosikmd/open-source.svg
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):

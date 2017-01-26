@@ -1,15 +1,11 @@
 sudo: false
 language: node_js
-cache:
-  directories:
-    - node_modules
+cache: yarn
 branches:
   only:
     - master
 notifications:
   email: false
-node_js:
-  - '7'
 before_script:
   - npm prune
 script:
