@@ -1,6 +1,9 @@
 # open source
 
 [![Build Status][build-badge]][build]
+[![version][version-badge]][package]
+[![PRs Welcome][prs-badge]](http://makeapullrequest.com)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 Open source node project template based on
 
@@ -13,8 +16,8 @@ Open source node project template based on
 - editorconfig
 - travis
 
-[build-badge]: https://img.shields.io/travis/spirosikmd/open-source.svg?style=flat-square
-[build]: https://travis-ci.org/spirosikmd/open-source.svg
+Inspired by [egghead's - how to write an open source library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)
+and [kentcdodds' generator](https://github.com/kentcdodds/generator-kcd-oss).
 
 ## Contributors
 
@@ -27,3 +30,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
 Contributions of any kind welcome!
+
+[version-badge]: https://img.shields.io/npm/v/open-source.svg?style=flat-square
+[package]: https://www.npmjs.com/package/open-source
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[build-badge]: https://img.shields.io/travis/spirosikmd/open-source.svg?style=flat-square
+[build]: https://travis-ci.org/spirosikmd/open-source.svg
